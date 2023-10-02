@@ -7,9 +7,13 @@ public class Student {
 		System.out.println("Student");
 		System.out.println("Teacher");
 		
-		Teacher tc = new Teacher();
-		tc.setId("01");
-		tc.setName("田中");
+		Teacher tc1 = new Teacher();
+		tc1.setId("01");
+		tc1.setName("田中");
+		
+		Teacher tc2 = new Teacher();
+		tc2.setId("02");
+		tc2.setName("佐藤");
 	}
 
 }
