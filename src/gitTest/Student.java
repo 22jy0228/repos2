@@ -9,6 +9,7 @@ public class Student {
 		
 		Teacher tc = new Teacher();
 		tc.setId("01");
+		tc.setName("田中");
 	}
 
 }
