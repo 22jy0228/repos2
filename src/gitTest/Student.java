@@ -8,6 +8,7 @@ public class Student {
 		System.out.println("Teacher");
 		
 		Teacher tc = new Teacher();
+		tc.setId("01");
 	}
 
 }
