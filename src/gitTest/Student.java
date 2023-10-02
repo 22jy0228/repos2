@@ -9,6 +9,10 @@ public class Student {
 		
 		Teacher tc = new Teacher();
 		tc.setName("田中");
+		
 	}
-
+	
+	public static void print(Teacher tc) {
+		System.out.println(tc.getName());
+	}
 }
